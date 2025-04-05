@@ -13,12 +13,12 @@ The dataset used in this project contains three types of geometric shapes: circl
 Images are saved under directories named after each shape: Circle, Square, and Triangle.
 
 ## Model
-The model used in this project is a simple Convolutional Neural Network (CNN). It has the following architecture:
-1. Conv Layer 1: 3 input channels (RGB), 16 output channels, kernel size 3, padding 1.
-1. Conv Layer 2: 16 input channels, 32 output channels, kernel size 3, padding 1
-1. MaxPool Layer: 2x2 max pooling
-1. Fully Connected Layer 1: 32 * 16 * 16 inputs, 128 outputs
-1. Fully Connected Layer 2: 128 inputs, 3 outputs (for 3 classes)
+The architecture of the model is a simple CNN with 3 convolutional layers followed by fully connected layers:
+- Conv1: 3 input channels → 16 output channels
+- Conv2: 16 input channels → 32 output channels
+- Conv3: 32 input channels → 64 output channels
+- FC1: Flattened features → 256 neurons
+- FC2: 256 neurons → Number of classes (3)
 
 ## Training
 The model is trained using the following configurations:
@@ -36,9 +36,9 @@ After training, the model is evaluated on the test set, and the following metric
 - **Confusion Matrix** (to visualize model's performance across the classes)
 
 ## Results
-The model's performance is evaluated and displayed via:
-- Confusion Matrix
-- Sample predictions with their actual labels
+After training for 30 epochs, the model achieved a 95.71% accuracy on the test set.
+
+The confusion matrix and visualizations of predictions on test images will help in evaluating the model's performance.
 
 ## Usage
 To run the Jupyter notebook:
