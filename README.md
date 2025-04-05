@@ -2,7 +2,7 @@
 ## Overview
 This project demonstrates the training of a Convolutional Neural Network (CNN) using PyTorch to classify images of basic geometric shapes (circle, square, triangle). The images are synthetically generated using Python's PIL library and stored in a custom dataset. The model is trained, validated, and tested on this dataset. The goal is to classify the images into one of the three shape categories.
 ## Requirements
-pip install torch torchvision matplotlib pillow scikit-learn
+```bash pip install torch torchvision matplotlib pillow scikit-learn ```
 
 ## Dataset
 The dataset used in this project contains three types of geometric shapes: circles, squares, and triangles. These shapes are generated with random sizes and rotations. The dataset is split into three parts:
@@ -39,3 +39,13 @@ After training, the model is evaluated on the test set, and the following metric
 The model's performance is evaluated and displayed via:
 - Confusion Matrix
 - Sample predictions with their actual labels
+
+## Usage
+To run the Jupyter notebook:
+1. Install Jupyter notebook:
+```pip install notebook```
+
+1. Launch Jupyter notebook:
+```jupyter notebook```
+
+1. Open the Shape_Classifier.ipynb file and execute the cells to train the model and visualize the results.
