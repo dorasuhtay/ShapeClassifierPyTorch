@@ -49,3 +49,8 @@ To run the Jupyter notebook:
 ```jupyter notebook```
 
 1. Open the Shape_Classifier.ipynb file and execute the cells to train the model and visualize the results.
+
+## 📬 Contact
+SuSu
+GitHub: dorasuhtay
+
