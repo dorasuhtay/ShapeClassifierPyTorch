@@ -32,12 +32,15 @@ The training loop includes periodic evaluation on the validation set, and the mo
 
 ## Evaluation
 After training, the model is evaluated on the test set, and the following metrics are calculated:
-- **Test Accuracy**. ![Test Accuracy](https://github.com/dorasuhtay/ShapeClassifierPyTorch/tree/main/shape_classifier/testaccuracy.PNG?raw=true) 
-- **Confusion Matrix** (to visualize model's performance across the classes). ![Confusion Matrix](https://github.com/dorasuhtay/ShapeClassifierPyTorch/tree/main/shape_classifier/confusionmatrix.PNG)
+- **Test Accuracy**.
+
+   ![Image](https://github.com/user-attachments/assets/a3142dfc-e0cd-4764-a269-dd66ecec6462)
+- **Confusion Matrix** (to visualize model's performance across the classes). 
+  ![Image](https://github.com/user-attachments/assets/a9079415-9374-4113-b24e-a388516bb50f)
 
 ## Results
 After training for 30 epochs, the model achieved a 95.71% accuracy on the test set.
-![Visualize Prediction](https://github.com/dorasuhtay/ShapeClassifierPyTorch/tree/main/shape_classifier/visualize_prediction.PNG)
+![Image](https://github.com/user-attachments/assets/5ed2cac0-79d7-4072-868e-7b86c05d361c)
 
 The confusion matrix and visualizations of predictions on test images will help in evaluating the model's performance.
 
